@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2 Table</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        th, td {
+            border: 2px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        td:first-child {
+            background-color: #FF6666; /* Red for the first column */
+            color: white;
+            font-weight: bold;
+        }
+
+        td:nth-child(odd) {
+            background-color: #FFCCCC; /* Light red for odd columns */
+        }
+
+        td:nth-child(even) {
+            background-color: #FFDDDD; /* Light pink for even columns */
+        }
+
+        td[colspan="7"] {
+            background-color: #FFCCCC; /* Light red for extended columns */
+        }
+
+        td[colspan="4"] {
+            background-color: #FFDDDD; /* Light pink for extended columns */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <a href="./index.html">Forms</a>
+            <a href="./table.html">Table</a>
+        </center>
+    </header>
+    <main>
+        <h2>Ian's Timetable</h2>
+        <table>
+            <!-- Your table content goes here -->
+        </table>
+    </main>
+    <footer></footer>
+</body>
+</html>
